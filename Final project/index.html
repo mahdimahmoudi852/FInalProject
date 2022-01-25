@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>coffee</title>
+</head>
+
+<body onload="timer();">
+    <center>
+    <div class="timerdiv">
+            <h1 class="timerup">تا شروع جشنواره: </h3>
+            <p id="days" class="timer"></p>
+            <p id="hours" class="timer"></p>
+            <p id="mins" class="timer"></p>
+            <p id="secs" class="timer"></p>
+            <h1 id="end" class="timer"></h2>
+        </div>
+    </center>
+    </div>
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <header class="header">
+        <div class="menu">
+            <div class="inner-menu container">
+                <div class="logo">
+                    <span class="icon">
+                        <i class="fas fa-coffee"></i>
+                    </span>
+                </div>
+                <div class="navbar">
+                    <ul class="header-menu">
+                        <a href="#">
+                            <li class="menu-item">خانه</li>
+                        </a>
+                        <a href="#market">
+                            <li class="menu-item">فروشگاه</li>
+                        </a>
+                        <a href="#education">
+                            <li class="menu-item">آموزش</li>
+                        </a>
+                        <a href="#about-us">
+                            <li class="menu-item">درباره ما</li>
+                        </a>
+                        <a href="#contact-us">
+                            <li class="menu-item">تماس با ما</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="section-sidebar">
+                    <a href="javascript:void(0);" onclick="myFunc();">
+                        <span class="side-bar">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="user">
+                    <span class="user">
+                        <i class="fas fa-user"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="inner-header-content container">
+                <h1 class="m-0 h1 m-1">
+                    قهوه لمیز
+                </h1>
+                <p class="m-0 detail-header">
+                    قهوه خود را باب میل خود سفارشی سازی کنید و سفارش بدهید
+                </p>
+                <p class="m-0 detail-header end">
+                    از سفارش خود با لمیز ، لذت ببرید
+                </p>
+                <a href="#" class="header-button">
+                    سفارش
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="sidebar" id="sidebar">
+        <ul class="header-menu-sidebar">
+            <a href="#">
+                <li class="menu-item-sidebar">خانه</li>
+            </a>
+            <a href="#market">
+                <li class="menu-item-sidebar">فروشگاه</li>
+            </a>
+            <a href="#education">
+                <li class="menu-item-sidebar">آموزش</li>
+            </a>
+            <a href="#about-us">
+                <li class="menu-item-sidebar">درباره ما</li>
+            </a>
+            <a href="#contact-us">
+                <li class="menu-item-sidebar">تماس با ما</li>
+            </a>
+            <a href="javascript:void(0);" onclick="myFunc();">
+                <span class="side-bar">
+                    <i class="fas fa-arrow-right"></i>
+                </span>
+            </a>
+        </ul>
+    </div>
+    <section class="market">
+        <div class="inner-market">
+            <div class="title-section">
+                <h2 id="market">فروشگاه</h2>
+            </div>
+            <div class="market-list">
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-1-min.jpg" class="responsive hover" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                قهوه ترک
+                            </p>
+                            <p>
+                                2.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-2-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                قهوه ترک
+                            </p>
+                            <p>
+                                2.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-3-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                قهوه ترک
+                            </p>
+                            <p>
+                                2.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-4-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                قهوه ترک
+                            </p>
+                            <p>
+                                2.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="market">
+        <div class="inner-market">
+            <div class="market-list">
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-5-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                کپسول باریستا
+                            </p>
+                            <p>
+                                3.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-6-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                کپسول باریستا
+                            </p>
+                            <p>
+                                3.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-7-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                کپسول باریستا
+                            </p>
+                            <p>
+                                3.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-8-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                کپسول باریستا
+                            </p>
+                            <p>
+                                3.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="market end">
+        <div class="inner-market">
+            <div class="market-list">
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-9-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                قهوه ساز
+                            </p>
+                            <p>
+                                8.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-10-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                قهوه ساز
+                            </p>
+                            <p>
+                                8.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-11-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                قهوه ساز
+                            </p>
+                            <p>
+                                8.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-cart">
+                    <div class="header-sller">
+                        <img src="/assets/images/h-c-11-min.jpg" class="responsive" alt="">
+                    </div>
+                    <div class="footer-seller">
+                        <div class="market-details">
+                            <p>
+                                قهوه ساز
+                            </p>
+                            <p>
+                                8.99$
+                            </p>
+                        </div>
+                        <div class="market-shop">
+                            <a href="#">
+                                اضافه به سبد خرید
+                                <i class="fas fa-cart-plus"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education">
+        <div class="inner-education container">
+            <div class="title-section">
+                <h2 id="education">آموزش</h2>
+            </div>
+            <div class="inner-education-content">
+                <div class="right">
+                    <h3 class="education-title">اصطلاحات مهم در دنیای قهوه</h3>
+                    <p class="education-details">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد
+                        گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                    </p>
+                    <a href="" class="education-button">
+                        آموزش های بیشتر
+                    </a>
+                </div>
+                <div class="left">
+                    <video controls class="video">
+                        <source src="/assets/images/video.mp4">
+
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us" id="about-us">
+        <div class="inner-about-us container">
+            <div class="title-section">
+                <h2 id="education">درباره ما</h2>
+            </div>
+            <div class="details-about-us">
+                <p>
+                    از سال 88 و با باز شدن اولین شعبه لمیز در تجریش هدف ما واضح و روشن بوده و هست. سرو قهوه فوق العاده،
+                    کیک ها و شیرینی های تازه و ارائه بهترین سرویس ممکن در فضاهای زنده و به یادماندنی.
+                    در حال حاضر با 14 شعبه و بیش از 180 باریستا در خانواده مان در پُرترددترین نقاط شهر تهران و جاده های
+                    کشور با افتخار در خدمت عموم مردم ایران هستیم و جزء روزمره و خاطراتشان شده ایم.
+                    به ایرانی بودن برند و کسب و کارمان می بالیم و شب و روز و روز و شب، با عشق و دل و جان در تکاپوییم تا
+                    هر روز بهتر از دیروز در خدمتتان باشیم.
+                </p>
+            </div>
+            <div class="gallery">
+                <img src="/assets/images/gallery-1-min.jpg" class="responsive" alt="">
+                <img src="/assets/images/gallery-2-min.jpg" class="responsive" alt="">
+                <img src="/assets/images/gallery-3-min.jpg" class="responsive" alt="">
+                <img src="/assets/images/gallery-4-min.jpg" class="responsive" alt="">
+            </div>
+        </div>
+    </section>
+    <footer id="contact-us">
+        <div class="inner-footer container">
+            <div class="contact">
+                <h4>
+                    ارتباط با ما
+                </h4>
+                <p class="footer-details">
+                    تهران، میدان انقلاب، خیابان کارگر شمالی، خیابان فرصت شیرازی،
+                    کوچه فرخنده فال، پلاک 2
+                </p>
+                <p class="ma">
+                    021-54429000
+                </p>
+                <span>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-telegram"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </span>
+            </div>
+            <div class="map">
+                <h4>
+                    لمیز در نقشه
+                </h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6479.998725022905!2d51.3895146!3d35.7016333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a28ea3eaccc253e!2z2LTYsdqp2Kog2LLYp9mEINin24zYsdin2YbbjNin2YY!5e0!3m2!1sen!2suk!4v1642954321920!5m2!1sen!2suk"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>
+                تمامی حقوق مادی و معنوی این سایت برای کافه لمیز محفوظ است
+            </p>
+        </div>
+    </footer>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

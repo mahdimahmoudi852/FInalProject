@@ -1,0 +1,134 @@
+.header {
+    background-image: url("/assets/images/coffee-171653-min.jpg");
+    height: 120vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 8rem;
+}
+
+.menu {
+    height: 5%;
+    width: 100%;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.inner-menu {
+    /* background-color: #fff; */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    flex-basis: 50%;
+}
+
+.section-sidebar {
+    display: none;
+}
+
+.header-menu {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu a {
+    color: #fff;
+
+}
+
+.menu-item:hover {
+    color: #F4581F;
+}
+
+.user,
+.icon,
+.side-bar {
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: #F4581F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.user:hover,
+.icon:hover {
+    color: #F4581F;
+    background-color: #fff;
+}
+
+.header-content {
+    /* background-color: #fff; */
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.inner-header-content {
+    padding: 0 1rem;
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    color: #fff;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin-bottom: 3rem;
+}
+
+.h1 {
+    font-size: 5.5rem;
+}
+
+.detail-header {
+    font-size: 1.5rem;
+}
+
+.end {
+    margin-bottom: 3rem;
+
+}
+
+.header-button {
+    color: #fff;
+    background-color: #F4581F;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    background-color: transparent;
+    backdrop-filter: blur(18px);
+}
+
+.menu-item-sidebar {
+    color: #fff;
+}
+
+.sidebar-menu {
+    right: 0;
+}
